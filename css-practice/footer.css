@@ -3,41 +3,34 @@ body {
 	font-family: helvetica, arial, sans-serif;
 	color:white;
 	font-weight: lighter;
-	letter-spacing: 0.1em
+	letter-spacing: 0.1em;
+	padding:0;
+	margin: 0;
 }
-
-#outercontainer {
-	 width: 1500px;
-	 margin: 0;
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+a { color: #fff; text-decoration: none; }
+/*------------------*/
+.footer {
+	background-color: rgb(84,83,81);
+}
+.outercontainer {
+	 width: 940px;
+	 margin: 0 auto;
 	 padding: 0;
  }
 
-/*.button{
-	border: 1px solid rgb(90,90, 90);
-	background: rgb(110,110,110);
-	color: white;
-	text-align: center;
-	font-family: helvetica, arial, sans-serif;
-	border-radius: 3px;
-	box-shadow:  1px 1px 1px black; 
-	text-shadow: 0px 1px 1px black;
-	display: inline;
-	padding: 0;
-
-}	*/
-
- #col1 {
+ .col1 {
 	width: 335px;
 	height: 325px;
 	float: left;
-	background-color: rgb(84,83,81);
 	color: white;
 	text-align: left;
 	padding-top: 10px;
-	padding-left: 279px;
  }
  
- #rightcontainer {
+ .rightcontainer {
 	width: 850px;
 	height: 325px;
 	float: left;
@@ -47,7 +40,7 @@ body {
 	padding-bottom: 10px;
  }
 
- #col2 {
+ .col2 {
 	width: 218px;
 	height: 325px;
 	float: left;
@@ -55,18 +48,17 @@ body {
 	padding-right: 106px;
 }
 
- #col3 {
+ .col3 {
 	width: 225px;
 	height: 325px;
 	float: left;
-	padding-right: 224px;
  }
 
- #leftlist {
+ .leftlist {
  	float: left; 
  }
 
-  #rightlist {
+  .rightlist {
  	float: left; 
  }
 
@@ -76,13 +68,18 @@ body {
 	padding: 10px 0;
 	border-radius: 5px;
 	text-align: center;
-	border: solid 1px rgb(67, 67, 67);
-	border-top-color: rgb(82, 73, 73);
+	border: 1px solid rgb(48, 48, 48);
 	letter-spacing: 0.15em;
-	box-shadow: inset 0px 2px 0px rgb(133, 133, 133);
+	box-shadow: inset 0px 2px 0px rgba(133, 133, 133,0.8);
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+ .button:hover {
+	box-shadow: inset 0px 1px 0px rgba(0, 0, 0,0.2);
 }
 
-#howitworks {
+.howitworks {
 	background: linear-gradient(to bottom, rgb(250,214,1) 2%,rgb(245,209,0) 45%,rgb(245,190,1) 66%,rgb(245,168,4) 100%);
 	width: 218px;
 	text-align: center;
@@ -104,10 +101,10 @@ body {
 	text-shadow: 0px 2px 1px rgb(48, 48, 48);
 }
 
-#email {
+.email {
 	width: 152px;
 	letter-spacing: 0.15em;
-	padding: 16px 15px;
+	padding: 14px 15px 13px;
 	text-align: left;
 	background-color: rgb(253, 253, 253);
 	color: rgb(151,151,151);
@@ -120,8 +117,11 @@ body {
 	border: 1px solid rgb(73, 73, 73);
 	box-shadow: inset 0px 2px 8px rgb(116, 116, 116);
 }
+.email input {
+	border: 0;
+}
 
-#check {
+.check {
 	width: 25px;
 	padding: 20px 12px 12px 4px;
 	background-color: rgb(151,151,151);
@@ -138,9 +138,13 @@ body {
 	border-left: none;
 }
 
-#fb {
+.fb {
 	clear: left;
 	text-shadow: 0px 1px 2px black;
+}
+.social-links a {
+	display: block;
+	padding: 8px 0;
 }
 
 ul, menu, dir {
@@ -161,7 +165,7 @@ li {
 	font-size: 13px;
 }
 
-#emailgray {
+.emailgray {
 	background: rgb(99,99,99);
 	width: 140px;
 	padding: 10px 0px;
@@ -172,7 +176,7 @@ li {
 	box-shadow: inset 0px 2px 0px rgb(133, 133, 133);
 }
 
-#mobcats {
+.mobcats {
 	margin-bottom: 5px;
 	letter-spacing: 0.15em;
 	font-size: 1.3em;
