@@ -141,6 +141,8 @@ a { color: #fff; text-decoration: none; }
 .fb {
 	clear: left;
 	text-shadow: 0px 1px 2px black;
+	font-weight: lighter;
+	font-size: 12px
 }
 .social-links a {
 	display: block;
@@ -163,6 +165,7 @@ li {
 	list-style-type: none;
 	text-shadow: 0px 1px 2px black;
 	font-size: 13px;
+
 }
 
 .emailgray {
@@ -217,4 +220,12 @@ p {
 .upline  p{
 	-webkit-margin-before: 8px;
 	-webkit-margin-after: 8px;
+}
+
+/*new stuff*/
+
+.navbar{
+	background: url("/Users/Jennnn/project/css-practice/css-practice/navbarbackground.png")>;
+	background-repeat: repeat-x 
+
 }

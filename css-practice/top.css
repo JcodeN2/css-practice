@@ -1,0 +1,152 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	color:white;
+	background: #F1F0EC;	
+	letter-spacing: 0.1em;
+	padding:0;
+	margin: 0;
+}
+
+.cf:before, .cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+a {color: white; text-decoration: none; }
+
+/*----*/
+
+.container {
+	
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.fullwidth{
+	width: 100%;
+	min-width: 960px;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	background: url("/Users/Jennnn/project/css-practice/css-practice/navbarbackground.png");
+	background-repeat: repeat-x;
+	height: 60px;
+}
+
+.nav{
+	margin-top: -60px;
+}
+.nav .hat{
+	float: left;
+	height: 60px;
+}
+.nav ul {
+	list-style-type: none;
+	text-shadow: 0px 1px 2px black;
+	font-size: 15px;
+	background: none;
+	text-decoration: none;
+	padding: 0 20px;
+	font-weight: lighter;
+}
+
+
+.left li{
+	display: inline;
+	padding-left: 40px;
+}
+
+.nav .times {
+	font-family: times;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.left{
+	width: 420px;
+	float: left;
+}
+
+.right{
+	width: 164px;
+	float: right;
+	padding-top: 10px;
+	font-size: 15px;
+	padding-right: 0;
+}
+
+.right .round{
+	height: 56px;
+	border-radius: 100%;
+	float: left;
+	margin-top: -12px;
+}
+
+.right .nobackground{
+	margin: 5px 0 0 65px;
+}
+
+li .arrow{
+	float: right;
+	margin-top: -39px;
+}
+
+.title{
+	background: white;
+	clear: both;
+	color: rgb(83, 83, 83);
+	font-weight: lighter;
+	font-size: 32px;
+	padding: 10px;
+}
+
+.title p {
+margin-top: 10px;
+display: inline;
+}	
+
+.social{
+	float:right;
+	height: 46px;
+}
+
+.mainbackground{
+	width: 100%;
+	margin: 0 auto;
+	min-width: 960px;
+	background: gray;
+	height: 500px;
+}
+
+
+.maincontainer{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main{
+	list-style-type: none;
+	text-shadow: 0px 1px 2px black;
+	font-size: 15px;
+	background: none;
+	text-decoration: none;
+	padding: 0 20px;
+	font-weight: lighter;
+}
+
+.mainleft{
+	float: left;
+	width: 620px;
+}
+.caption{
+	color: gray;
+	background: 150px,150px,150px;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+.message{
+	background: yellow;
+}
