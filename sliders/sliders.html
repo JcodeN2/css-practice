@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Day Changer</title>
+	<link rel="stylesheet" type="text/css" href="sliders.css">
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="sliders.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href="webfonts/ss-social.css" rel="stylesheet" />
+	<link href="webfonts/ss-standard.css" rel="stylesheet" />
+
+</head>
+<body>
+	<div class="background">
+		<div class="main-container">
+			<h1>Make Your Day</h1> 
+			<div class="left-container">
+				<div class="tab-container">
+						<div class="tab active" id="daytime">Day</div>
+						<div class="tab" id="nighttime">Night</div>		
+				</div> <!-- end tab container  -->
+				<div class="tab-data-container">
+					<div class="tab-data daytime active">
+						<h3 class="toph3">Adjust Time</h3>
+						7 AM 
+						<input class="adjust-time" type = "range" min="0" max="300" step="1" value="150"/> 
+						7PM
+						<h3 class="toph3">Adjust Cloud</h3>
+						Sunny 
+						<input class="adjust-cloud" type = "range" min="0" max="85" step="1" value="0"/> 
+						Cloudy
+					</div>
+					<div class="tab-data nighttime">
+						<h3 class="toph3">Adjust Time</h3>
+						7 PM 
+						<input class="adjust-time" type = "range" min="0" max="300" step="1" value="150"/> 
+						7 AM
+						<h3 class="toph3">Adjust Fog</h3>
+						0% 
+						<input class="adjust-fog" type = "range" min="1" max="10" step="1" value="0"/> 
+						100%
+					</div>
+				</div> <!-- end tab-data-container -->
+			</div> <!-- end left container -->
+		<div class="right-container">
+			<div class="sky-container">
+				<div class="sky daytime active">
+					<i class="ss-icon sunny daytime">loading</i>
+					<div class="sun"></div>
+					<i class="ss-icon left">&#x2601;</i>
+					<i class="ss-icon left">&#x2601;</i>
+					<i class="ss-icon right">&#x2601;</i>
+					<i class="ss-icon right">&#x2601;</i>
+				</div>
+				<div class="sky nighttime">
+					<i class="ss-icon sunny nighttime">loading</i>
+					<div class="sun"></div>
+				</div>
+			</div> <!-- end sky container -->
+			<img class="ground" src="http://conjuringcreekboardingkennels.com/ESW/Images/grass-clipart.png"></div>
+		</div> <!-- end right container -->
+		</div> <!-- end 960 container -->
+	</div> <!-- end fullwidth background -->
+</body>
+</html>
